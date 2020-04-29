@@ -31,7 +31,8 @@ void Button::mouseTouch(MOUSEMSG myMouse) {
 		//FlushBatchDraw();
 
 		if (myMouse.mkLButton == true) {
-			*judge = (*p)();
+			if (judge == NULL) (*p)();
+			else *judge = (*p)();
 		}
 	}
 
