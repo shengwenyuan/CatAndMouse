@@ -21,9 +21,6 @@
     <ClCompile Include="CatMouse_Button.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
-    <ClCompile Include="testOnly_main.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CatMouse_Button.h">
